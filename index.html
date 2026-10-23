@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151b2a">
+  <meta name="description" content="Biblioteca de formação católica: tempos litúrgicos, Mês Mariano, vocações e formação sobre a Santa Missa.">
+  <title>Formação Católica — Fé, liturgia e vida</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <button class="brand" type="button" data-home aria-label="Ir para a página inicial">
+        <span class="brand-mark" aria-hidden="true"><span>✝</span></span>
+        <span class="brand-copy"><strong>FORMAÇÃO</strong><small>Fé & Liturgia</small></span>
+      </button>
+      <div class="sidebar-rule"></div>
+      <nav class="side-nav" aria-label="Navegação principal">
+        <button class="nav-link is-active" type="button" data-home><span class="nav-symbol">⌂</span><span>Início</span></button>
+        <p class="nav-label">TEMPOS LITÚRGICOS</p>
+        <div id="nav-liturgico"></div>
+        <p class="nav-label">DEVOÇÃO & VOCAÇÃO</p>
+        <div id="nav-devocao"></div>
+        <p class="nav-label">FORMAÇÃO SACRAMENTAL</p>
+        <div id="nav-formacao"></div>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="sidebar-ornament" aria-hidden="true">✧</div>
+        <p>Estude sem pressa.<br><strong>Reze com propósito.</strong></p>
+        <span class="sidebar-caption">BIBLIOTECA DE FORMAÇÃO</span>
+      </div>
+    </aside>
+
+    <div class="site-frame">
+      <header class="topbar">
+        <button class="mobile-brand" type="button" data-home><span class="mini-cross">✝</span> Formação Católica</button>
+        <div class="breadcrumbs" id="breadcrumbs"><span>Biblioteca</span><span class="crumb-separator">/</span><strong>Início</strong></div>
+        <form class="global-search" id="search-form" role="search">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+          <input id="global-search" type="search" placeholder="Buscar nos materiais..." aria-label="Buscar em todos os materiais">
+          <kbd>↵</kbd>
+        </form>
+      </header>
+
+      <main id="main-content" tabindex="-1">
+        <noscript><div class="noscript-message">Este site precisa de JavaScript ativado para mostrar os materiais e a busca.</div></noscript>
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-brand"><span class="footer-cross">✝</span><span><strong>Formação Católica</strong><small>Fé, liturgia e vida</small></span></div>
+        <p>Organizado a partir dos materiais de formação enviados. <a href="creditos.html">Créditos e licenças das mídias ↗</a></p>
+        <button type="button" class="footer-top" id="back-to-top">Voltar ao topo ↑</button>
+      </footer>
+    </div>
+  </div>
+  <script src="content-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
